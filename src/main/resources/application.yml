@@ -26,6 +26,7 @@
 #
 #
 
+#7.31
 
 server:
   port: 8081
@@ -37,6 +38,12 @@ spring:
     username: root
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
+jpa:
+  show-sql: true
+  hibernate:
+    ddl-auto: update
+
+
 
 ##mvc:
 ##  static-path-pattern: /static/**
